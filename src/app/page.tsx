@@ -2,19 +2,22 @@
 
 import React from 'react';
 import FileUploader from '../components/FileUploader';
+import Header from '../components/Header';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-          Yurepo - JavaScript Function Analyzer
-        </h1>
-        <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-          Upload your JavaScript files to generate a function call diagram.
-        </p>
-        <FileUploader />
-      </div>
-    </main>
+    <div className="min-h-screen flex flex-col bg-gray-100 dark:bg-gray-900">
+      <Header />
+      <main className="flex-grow flex items-center justify-center px-4 py-12">
+        <div className="w-full max-w-2xl bg-white dark:bg-gray-800 rounded-lg shadow-xl overflow-hidden">
+          <div className="p-8">
+            <p className="mb-6 text-base text-gray-600 dark:text-gray-400 text-center">
+              Upload your JavaScript files to generate a function call diagram.
+            </p>
+            <FileUploader />
+          </div>
+        </div>
+      </main>
+    </div>
   );
 }
