@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yurepo - JavaScript Function Analyzer
+
+Yurepo is an open-source tool designed to analyze JavaScript files and generate function call diagrams. It helps developers visualize the relationships between functions in their codebase, making it easier to understand and maintain complex JavaScript projects.
+
+## Features
+
+- Upload multiple JavaScript files
+- Generate interactive function call diagrams
+- Zoom and pan functionality for easy diagram exploration
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 14.x or later
+- npm 6.x or later
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/yurepo.git
+   cd yurepo
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Usage
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Upload your JavaScript files using the file uploader on the home page.
+2. Click "Generate Diagram" to analyze the files and create a function call diagram.
+3. Explore the generated diagram using zoom and pan controls.
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Acknowledgments
+
+- [Next.js](https://nextjs.org) - The React framework used
+- [Flowbite](https://flowbite.com) - UI components
+- [Mermaid](https://mermaid-js.github.io/mermaid/#/) - Diagramming and charting tool
+
+## Contact
+
+If you have any questions, feedback, or would like to contribute to the project, please feel free to reach out:
+
+- Email: aliftan29@gmail.com
+- GitHub Issues: For bug reports and feature requests, please [open an issue](https://github.com/yourusername/yurepo/issues) on this repository.
+
+We welcome your input and contributions to make Yurepo even better!
